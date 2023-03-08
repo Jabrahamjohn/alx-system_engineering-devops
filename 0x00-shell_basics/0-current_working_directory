@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $DIR_PATH$(cd $(dirname "${BASH_SOURCE:-$0}"))
+echo $DIR_PATH$(dirname /0x00-shell_basic $path)
