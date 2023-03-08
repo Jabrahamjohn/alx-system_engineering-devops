@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $dirname $(readlink -f 0x00-shell_basics/0-current_working_directory) 
+echo $DIR_PATH$(dirname $(realpath "${BASH_SOURCE:-$0}"))
