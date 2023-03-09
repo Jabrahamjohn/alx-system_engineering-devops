@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$(pwd)" -type d -exec chmod 777 {} \
+chmod -R u=rwX,g=rX,o= .
