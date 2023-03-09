@@ -1,1 +1,2 @@
 #!/bin/bash
+echo ( file_type: (file -b iamafile))
