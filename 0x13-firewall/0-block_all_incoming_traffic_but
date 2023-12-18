@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# install ufw firewall & set requirements
+
+# updating packages in the server
+sudo apt-get update
+
+#installing ufw firewall
+sudo apt-get install ufw
+
+# getting the firewall online
+sudo ufw enable
+
+# configuring the firewall
+sudo ufw default deny incoming
+
+# configuring the exceptions
+sudo ufw allow 22/TCP
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+
+# enforcement of the rules
+sudo ufw enable
+
+# status check
+sudo ufw status
