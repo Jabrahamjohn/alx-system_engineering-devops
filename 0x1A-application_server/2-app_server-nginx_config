@@ -20,7 +20,7 @@
 #
 server {
 	listen 80 default_server;
-rewrite ^/redirect_me https://www.youtube.com/ permanent;
+rewrite /redirect_me https://www.youtube.com/ permanent;
 	listen [::]:80 default_server;
 	
 	location /airbnb-onepage/ {
