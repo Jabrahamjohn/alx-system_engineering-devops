@@ -20,7 +20,6 @@
 #
 server {
 	listen 80 default_server;
-rewrite ^/redirect_me https://www.youtube.com/ permanent;
 	listen [::]:80 default_server;
 	
 	location /airbnb-onepage/ {
@@ -52,7 +51,7 @@ rewrite ^/redirect_me https://www.youtube.com/ permanent;
 	# Add index.php to the list if you are using PHP
 	index index.html index.htm index.nginx-debian.html;
 
-	server_name _;
+	server_name 100.26.217.63;
     error_page 404 /404.html;
 
     location = /404.html {
