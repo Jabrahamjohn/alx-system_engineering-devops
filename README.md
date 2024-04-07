@@ -33,3 +33,7 @@
 - [0x14](./0x14-mysql) : MySQL.
 - [0x15](./0x15-api) : API.
 - [0x19](./0x19-postmortem) : Postmortem.
+
+# objectives.
+
+this is meant to give me an idea of shell DevOps and bash scripting 
